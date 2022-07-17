@@ -15,17 +15,11 @@ from YukkiMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, ap
 async def khalid(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/a6c96cdbd066ca2388d06.jpg",
-        caption=f"""◍ الزرار الاول: قناه السورس \n◍ الزرار الثاني: هو مبرمج السورس\n√""",
+        caption=f"""◍ مش محتاجين نكتب كلام كتير خش ع اول زرار وانت هتعرف""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                InlineKeyboardButton(
-                    "🔮𝐒𝐎𝐔𝐑𝐂𝐄🔮", url=f"https://t.me/ch_world_music"
-                ),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "♡اضف البوت الى مجموعتك♡", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+                InlineKeyboardButton("• 𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍 ☤ ", url=f"https://t.me/WORLD_MUSIC_F"),
                 ],
             ]
         ),
